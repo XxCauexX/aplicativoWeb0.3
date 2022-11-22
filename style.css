@@ -1,0 +1,148 @@
+@media (min-width: 768px){
+    body {
+        margin: 0;
+        background-color: #ffffff;
+    }
+
+    :root {
+        --cor-destaque: #FFF0F5;
+    }
+
+    #nome {
+        font-family: 'Dancing Script', cursive;
+        font-size: 35px;
+    }
+
+    #header{
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+        background-image: linear-gradient(to right,blueviolet, #914172 );
+        padding: 50px 10px 30px 15px;
+    }
+
+    #marca {
+        background-color: rgb(65, 25, 102);
+        padding: 10px;
+    } 
+
+    #marca * {
+        vertical-align: middle;
+        background-color: ;
+    }
+
+
+    #marca img {
+        width: 55px;
+        margin-right: 10px;
+    }
+
+    #marca span {
+        font-family: "negrito";
+        font-size: 150%;
+        color: var(--cor-destaque);
+    }
+
+    #boasvindas {
+        font-family: 'Dancing Script', cursive;
+        font-size: 500%;
+        display: block;
+    }
+
+    #slogan {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 200%;
+    }
+
+    /*CONTAINER*/
+
+    #container {
+        padding: 10px;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    /*seção da esquerda*/
+
+    #esquerda {
+        width: 60%;
+        padding: 10px;
+        
+    }
+
+    #lancamentos {
+        font-family: 'Dancing Script', cursive; 
+        font-size: 200%;
+    }
+
+    #novoLancamento {
+        float: right;
+        border: none;
+        background-color: blueviolet;
+        color: rgb(0, 0, 0);
+        font-size: 150%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #areaLancamentos {
+        margin-top: 30px;
+    }
+
+    .blocoLancamento {
+        background-color: aliceblue;
+        padding: 25px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    .blocoLancamento img {
+        width: 50px;
+    }
+
+    .descricaoLancamentos {
+        float: right;
+        text-align: right;
+    }
+
+    .descricaoLancamentos span {
+        display: block;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    .valor {
+        font-family: 'Fjalla One', sans-serif !important;
+        font-size: 200%;
+    }
+
+    .gasto {
+        color: red;
+    }
+
+    .entrada {
+        color: #22af20;
+    }
+
+    #direita {
+        background-color: aliceblue;
+        border-radius: 20px;
+        width: 40%;
+        padding: 30px;
+        text-align: right;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    #direita img {
+        width: 30px;
+    }
+
+    #labelRenda {
+        font-size: 250%;
+        display: block;
+    }
+
+    #renda {
+        font-size: 500%;
+        color: blueviolet;
+    }
+
+}
